@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Osborn ojure"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>non-responsive floating dots video page</title>
+</head>
+<body>
+ <div class="cover">
+       
+       <video autoplay muted loop id="myVideo">
+                <source src="bluedots.mp4" type="video/mp4">
+        </video>
+       
+        <div id="nav">
+           <div class="icon">
+               <h2 style="color: #e4f0f7;">Osborn1900</h2>
+           </div>
+            <div class="menu">
+                <button id="micon" onclick="reveal_menu()"><i class="fas fa-bars" ></i></button>
+                <div id="menu-contnt">
+                    <ul>
+                        <li ><a href="#"> HOME</a></li>
+                        <li ><a href="#"> Portfolio</a></li>
+                        <li ><a href="#"> Side Projects</a></li>
+                        <li ><a href="#"> Contacts</a></li>
+                        <li ><a href="#"> Blog</a></li>
+                        <li ><a href="#"> Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="face">
+            <div class="icons">
+                <div id="icon">
+                    <a href="#html"><i class="fab fa-html5"></i></a>
+                    <h3> HTML5</h3>
+                </div>
+                
+                <div id="icon">
+                    <a href="#css"><i class="fab fa-css3-alt"></i></a>
+                    <h3>CSS3</h3>
+                </div>
+                
+                <div id="icon">
+                    <a href="#java"><i class="fab fa-java"></i></a>
+                    <h3>JAVA</h3>
+                </div>
+                
+                
+            </div>
+            
+            
+        </div>
+                <div class="main">
+            
+            <div class="maincontainer">
+                <div class="text" id="html">
+                   <div class="topic">
+                        <a href="#"><i class="fab fa-html5"></i></a>
+                        <h3> HTML5</h3>
+                    </div>
+                    <div class="description">
+                        <p>HyperText Markup Language also popularly known as HTML is one of the most important components of a website or a web aplication. It is often referd to as the skeletal part of the website because Html forms the backbone of every website regardless of what backend languages used for the web application. It is often  and correctly argued and frouned upon by professional programers when it is called a programing language, but there is no doubt that this markup language could make a website stand without any other languages added to it.</p>
+                    </div>
+                </div>
+                  
+                <div class="text" id="css">
+                        <div class="description">
+                        <p>Cascading style sheet also known as CSS is the second most important language in designing a website.Css gives that clasyy, custom and styleish look to the web abliction. No doubt Html can create and run a website , but unless your aim is to make a replica of craigslist then Css is definetly important to know.Html is very limited when it comes to design, Css gives the colors and shapes and positions to all the elements created by HTML.</p>
+                    </div>
+                    
+                    <div class="topic">
+                        <a href="#"><i class="fab fa-css3-alt"></i></a>
+                    <h3>CSS3</h3>
+                    </div>
+                </div>
+                  
+                <div class="text" id="java">
+                   <div class="topic">
+                        <a href="#"><i class="fab fa-java"></i></a>
+                    <h3>JAVA</h3>
+                    </div>
+                    <div class="description">
+                        <p> Unlike HTML and CSS, Java is an actual programing language. With just Html and Css you can create very good looking and responsive websites but at most all they can be are landing pages. But to make an actual web application with functionalities like login functions and access only sites to mention but a few, then you need a back-end programing language. Java is one of the many options to use for this. java is a porpular object oriented language that can give  the dinamic functionality to a website.</p>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        <div class="sidebar">
+            <a href=""><i class="fab fa-facebook-f" style="color:#4636a2;"></i></a>
+            <a href="https://www.instagram.com/osborn1900/" target="_blank"><i class="fab fa-instagram"  style="color:#b41a4f;"></i></a>
+            <a ><i class="fas fa-thumbs-up"  id="like"  style="color:rgb(245, 243, 252);"></i></a>
+            
+            
+        </div>
+       
+        <div class="footer">
+            
+            <div class="footercontainer">
+                <ul>
+                        <li ><a href="#"> HOME</a></li>
+                        <li ><a href="#"> Portfolio</a></li>
+                        <li ><a href="#"> Side Projects</a></li>
+                        <li ><a href="#"> Contacts</a></li>
+                        <li ><a href="#"> Blog</a></li>
+                        <li ><a href="#"> Community</a></li>
+                    </ul>
+                    
+                    <form action="">
+                        email:
+                        <input type="text">
+                        
+                        username:
+                        <input type="text">
+                        
+                        password:
+                        <input type="password">
+                        
+                        <button>Sign Up!</button>
+                        
+                    </form>
+                    
+                    <form action="">
+                        <input type="text" placeholder="search">
+                        <button type="submit"><i class='fas fa-search'></i></button>
+                    </form>
+                
+            </div>
+             <div class="scrolltop">
+            <a href="#nav"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+/* The Aim of this practice is to get a full page video background, and also to theme the rest of the website based on the video content and color.*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.cover{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 0%;
+   
+}
+
+#nav  {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(43, 90, 137, 0.37);
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    height: 10vh;
+  
+}
+.menu    {
+     padding: 5px;
+    margin: 0.1em 0.5em;
+    position: absolute;
+    right: 0px;
+}
+.menu button{
+    background-color: inherit;
+    border: none;
+}
+#micon:hover, .icon, button {
+    cursor: pointer;
+   
+}
+.fa-bars{
+    color: #aab18e;
+    font-size: 2.5em;
+}#menu-contnt{
+    position: absolute;
+    right: -20vw;
+    top: 10vh;
+    display: none;
+    transition: 0.8s linear;
+        
+    
+}
+#menu-contnt ul{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+}
+#menu-contnt li a{
+     color: #929da7;
+    text-decoration:none;
+}
+#menu-contnt li {
+    padding: 1em;
+    text-align: center;
+    background-color:inherit;
+    border-bottom: rgba(77, 77, 137, 0.62) solid 2px;
+    transition: 0.5s ease-in;
+                }
+#myVideo {
+width: 100vw;
+
+}
+#menu-contnt li:hover {
+    animation: swing 0.55s infinite alternate;
+    border-bottom:none;
+    
+       }
+/* The swing animation aplied through out the page.*/
+
+@keyframes swing {
+    0%{ transform: rotate(16deg);}
+    12.25{transform: rotate(11.25deg);}
+    25%{ transform: rotate(5.125deg);}
+    50%{ transform: rotate(0deg);}
+    75%{ transform: rotate(-5.125deg);}
+    82.25{transform: rotate(-11.25deg);}
+    100%{ transform: rotate(-16deg);}
+    
+}
+
+.face{
+    position: absolute;
+    top: 30%;
+    width: 70%;
+    left: 15%;
+    
+}
+.face .fab{
+    font-size: 5em;
+    color: #407dd1;
+}
+#icon:hover{
+    background-color: rgba(56, 75, 69, 0.63);
+    cursor: pointer;
+    color: rgba(159, 113, 74, 0.59);
+}
+
+#icon:hover .fab{
+    animation: swing 0.7s infinite alternate;
+    color: #455c71;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    color: #526472;
+    text-align: center;
+}
+#icon{
+    background-color: rgba(50, 93, 152, 0.62);
+    padding: 4em;
+    border: 4px #232f3b solid;
+    border-radius: 20px;
+    
+}
+
+
+.main   {
+     display: block;
+    background-color:rgba(46, 49, 67, 0.99);
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    height: 130%;
+    
+}
+
+.maincontainer {
+    width: 70%;
+    left: 15%;
+    top: 5%;
+    position: absolute;
+}
+.text   {
+    display: flex;
+    padding:10px;
+    margin:15px;
+    justify-content: space-between;
+    
+}
+
+
+.topic{
+    margin:0% 10%;
+     font-size: 1.3em;
+     display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: rgba(222, 229, 201, 0.85);
+    text-align: center;
+     
+}
+.topic .fab{
+    font-size: 5em;
+    color: rgba(140, 170, 58, 0.74);
+    text-shadow: 3px 0px #1d364e;
+}
+.description {
+    
+    margin: 0px 10%;
+    justify-content: center;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    border-bottom: 2px rgba(95, 61, 61, 0.63) solid;
+    color: rgba(245, 250, 248, 0.9);
+}
+
+.text:hover .description{
+    color: rgba(165, 160, 42, 0.83);
+}
+
+.text:hover .fab{
+     animation: swing 0.7s infinite alternate;
+}
+
+.footer   {
+    position: absolute;
+    top: 220%;
+    padding: 10px;
+   width: 100%;
+    background-color: #7193a2;
+}
+.footercontainer {
+    
+    
+     display: flex;
+    justify-content: space-around;
+    align-content: center;
+   
+}
+form:first-of-type {
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    color: #2e4d9f;
+}
+form button{
+    border: none;
+    background-color: rgba(40, 55, 106, 0.85);
+    color: #b4b4c4;
+    padding: 4px;
+    border-radius: 7px;
+   
+    
+}
+.footer ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.footer li{
+    padding: 3px;
+}
+.footer li a{
+    text-decoration: none;
+    color: #3b6758;
+}
+
+
+.scrolltop{
+    position: fixed;
+    text-decoration: none
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    left:2%;
+    top: 130%;
+    position: absolute;
+}
+
+.scrolltop {
+     display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    bottom: 3%;
+    right: 4%;
+    
+}
+
+.scrolltop .fas{
+   background-color: inherit;
+    font-size: 0.8em;
+    padding: 2px;
+    color: rgba(16, 16, 18, 0.54);
+}
+
+.sidebar a{
+    padding: 10px;
+    text-decoration: none;
+}
