@@ -15,7 +15,7 @@
  
  There are a few social media links and a to the top button that takes you to the verry top of the page.
  
- feel free to visit [my insagram](https://www.instagram.com/osborn1900/?hl=en).
+ feel free to visit [my insagram](https://www.instagram.com/osborn1900/?hl=en) where you can find a short video i made on this practice, and follow for more.
  
  
  
